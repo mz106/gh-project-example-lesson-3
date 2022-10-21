@@ -3,21 +3,10 @@ import './Home.css';
 
 const Home = () => {
     return (
-    <div id = "home">
+    <div className = "home">
        
-       
-        <div id = "cardRow">
-            <p>card here</p>
-            <p>card here</p>
-            <p>card here</p>
-        </div>
+       <p>Home Component</p>
 
-        <div id = "cardRow">
-            <p>card here</p>
-            <p>card here</p>
-            <p>card here</p>
-        </div>
-        
     </div>
     )
 }
