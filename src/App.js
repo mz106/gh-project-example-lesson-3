@@ -1,9 +1,15 @@
 
+
 import { useState, useEffect } from "react";
 import "./App.css";
 
 
+
+
 function App() {
+
+  const [basket, setBasket] = useState([]);
+
   const [products, setProducts] = useState();
 
   useEffect(() => {
@@ -15,6 +21,7 @@ function App() {
     };
     fetchData();
   }, []);
+
 
   return (
 
