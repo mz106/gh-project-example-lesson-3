@@ -1,25 +1,14 @@
 import './Home.css';
 
 
-const HomeLayout = () => {
+const Home = () => {
     return (
-    <div id = "homeLayout">
+    <div className = "home">
        
-       
-        <div id = "cardRow">
-            <p>card here</p>
-            <p>card here</p>
-            <p>card here</p>
-        </div>
+       <p>Home Component</p>
 
-        <div id = "cardRow">
-            <p>card here</p>
-            <p>card here</p>
-            <p>card here</p>
-        </div>
-        
     </div>
     )
 }
 
-export default HomeLayout; 
+export default Home; 
