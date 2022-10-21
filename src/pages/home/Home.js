@@ -1,9 +1,9 @@
 import './Home.css';
 
 
-const HomeLayout = () => {
+const Home = () => {
     return (
-    <div id = "homeLayout">
+    <div id = "home">
        
        
         <div id = "cardRow">
@@ -22,4 +22,4 @@ const HomeLayout = () => {
     )
 }
 
-export default HomeLayout; 
+export default Home; 
