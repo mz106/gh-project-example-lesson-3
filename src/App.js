@@ -3,7 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <h1>hello world</h1>
+    <>
+      <h1>hello world</h1>
+      <h2>Branch protection test</h2>
+    </>
   );
 }
 
