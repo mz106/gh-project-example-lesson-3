@@ -1,5 +1,5 @@
 import React from 'react'
-import "./basket.css"
+import "./Basket"
 
 const Basket = () => {
   return (

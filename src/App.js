@@ -1,3 +1,7 @@
+import {Route, Routes} from "react-router-dom"
+import Home from "./pages/home/Home";
+import Basket from "./pages/basket/Basket"
+
 
 import { useState, useEffect } from "react";
 import "./App.css";
@@ -17,8 +21,12 @@ function App() {
   }, []);
 
   return (
+    <Routes>
+      <Route index element = {<Home />}/>
+      <Route path = "/basket" element = {<Basket />}/>
 
-    <p>Placeholder</p>
+    </Routes>
+    
   )
 }
 
